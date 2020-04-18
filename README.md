@@ -13,7 +13,7 @@
 
 **Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-(mobile)-(Copy)?node-id=0%3A1)
+* [Ссылка на мой сайт](https://factorng.github.io/russian-travel/index.html)
 
 **Картинки**
 
