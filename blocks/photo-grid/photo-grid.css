@@ -19,6 +19,11 @@
     margin: 88px 24px;
   }
 }
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media screen and (max-width: 450px) {
   .photo-grid {
     grid-template-columns: 1fr;
