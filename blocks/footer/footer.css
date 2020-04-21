@@ -8,13 +8,8 @@
   max-width: 1184px;
   margin: 0 auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px){
-  .footer__nav {
-    margin: 92px 0 0 16px;
   }
 }

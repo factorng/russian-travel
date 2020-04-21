@@ -1,3 +1,10 @@
 .photo-grid__item {
   width: 100%;
+  justify-self: center;
+}
+@media screen and (max-width: 768px) {
+  .photo-grid__item {
+    width: 100%;
+    max-height: 264px;
+  }
 }

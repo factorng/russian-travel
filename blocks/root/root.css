@@ -1,11 +1,6 @@
 .root {
-    /* мы ещё не умеем делать мобильную версию сайта, */
-    /* поэтому выше установлена минимальная ширина страницы */
-
-    /* выше установили ограничение по максимальной ширине */
     margin: 0 auto;
-    /* выше для экранов больше 1600px отцентрировали весь контент */
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', Arial, sans-serif;;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
