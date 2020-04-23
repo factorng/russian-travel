@@ -4,20 +4,15 @@
 @import url(../lead/__image/lead__image.css);
 @import url(../lead/__container/lead__container.css);
 .lead {
-  color: white;
   max-width: 984px;
   margin: 0 auto;
 }
-@media screen and  (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .lead {
-    margin: 0 48px;
+    max-width: 928px;
   }
 }
-@media screen and  (max-width: 768px) {
-  .lead {
-    margin: 0;
-  }
-}
+
 
 
 

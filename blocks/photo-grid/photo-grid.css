@@ -3,32 +3,33 @@
   display: grid;
   max-width: 1184px;
   margin: 92px auto 0 auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, minmax(auto, 213px));
   gap: 16px;
-}
-@media screen and (max-width: 1280px) {
-  .photo-grid {
-    margin: 92px 48px 0 0;
-  }
 }
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin: 100px 48px 0 48px;
+    display: grid;
+    max-width: 928px;
+    margin: 92px auto 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, minmax(auto, 225px));
+    gap: 14px;
   }
 }
 @media screen and (max-width: 768px) {
   .photo-grid {
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: auto;
-    margin: 90px 24px;
+    max-width: 720px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, minmax(auto, 264px));
+    grid-gap: 16px;
   }
 }
 @media screen and (max-width: 450px) {
   .photo-grid {
+    margin: 65px 12px 0 12px;
     grid-template-columns: 1fr;
-    margin: 64px 16px;
+    grid-template-rows: repeat(12, 216px);
+    grid-gap: 12px;
   }
 }

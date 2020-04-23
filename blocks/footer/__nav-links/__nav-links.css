@@ -1,10 +1,10 @@
 .footer__nav-links {
   list-style: none;
   margin: 0;
-  display: flex;
   padding: 0;
+  display: flex;
 }
-@media screen and (max-width: 767px) {
+@media screen and  (max-width: 680px) {
   .footer__nav-links {
     flex-direction: column;
   }

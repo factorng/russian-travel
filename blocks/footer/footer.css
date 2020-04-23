@@ -8,8 +8,26 @@
   max-width: 1184px;
   margin: 0 auto;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 768px;
+    padding: 0 22px;
+  }
+}
+@media screen and  (max-width: 680px) {
   .footer {
     flex-direction: column;
+  }
+}
+@media screen and  (max-width: 450px) {
+  .footer {
+    margin: 0 15px;
+    max-width: 450px;
+    padding: 0;
   }
 }

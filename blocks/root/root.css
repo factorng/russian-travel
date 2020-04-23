@@ -1,9 +1,8 @@
 .root {
-    margin: 0 auto;
-    font-family: 'Inter', Arial, sans-serif;;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    background-color: #2A2C2F;
-    color: white;
-  }
+  font-family: 'Inter', Arial, sans-serif;;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #2A2C2F;
+  color: white;
+}

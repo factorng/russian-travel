@@ -24,3 +24,8 @@
 .cover__link:hover::after{
   opacity: 0.8;
 }
+@media screen and (max-width: 450px) {
+  .cover__link:hover::after{
+    opacity: 0.5;
+  }
+}

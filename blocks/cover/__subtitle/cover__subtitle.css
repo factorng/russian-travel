@@ -7,14 +7,25 @@
   position: relative;
   z-index: 3;
   text-align: center;
-  padding: 4% 0 20% 0;
   max-width: 360px;
   margin: 0 auto;
+  padding: 2.2% 0 20.8% 0;
 }
-@media screen and (max-width: 500px) {
-  .cover__subtitle {
+@media screen and (max-width: 1024px) {
+  .cover__subtitle{
+    padding: 2.3% 0 19.3% 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__subtitle{
+    padding: 3.1% 0 15% 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cover__subtitle{
     font-size: 14px;
     line-height: 16px;
-    max-width: 288px;
+    max-width: 270px;
+    padding: 3.8% 0 12% 0;
   }
 }

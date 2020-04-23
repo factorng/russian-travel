@@ -5,24 +5,15 @@
   line-height: 14px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  margin: 8px 0 0 0;
+  margin: 5px 0 0 0;
 }
-@media screen and  (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .lead__caption {
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    margin: 8px 0 0 0;
+    margin: 5px 0 0 20px;
   }
 }
-@media screen and  (max-width: 768px) {
+@media screen and (max-width: 450px) {
   .lead__caption {
-    margin: 0px 0 0 24px;
-  }
-}
-@media screen and  (max-width: 425px) {
-  .lead__caption {
-    margin: 8px 0 0 16px;
+    margin: 5px 0 0 16px;
   }
 }
